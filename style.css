@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.navbar-brand{
+    flex: 1;
+    text-align: left;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link{
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+<!----------------------Discount Section------------------------->
+
+.row, h1{
+    margin-top: 40%;
+    color: aliceblue;
+}
+
+.btn{
+    display: inline-block;
+    background-color: #046337;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+}
+
+
+
+<!----------------------Arrival Section------------------------->
+.carousel-item{
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+.container, .container-ig, .container{
+    max-width: 1300px;
+}
+
+.carousel-caption{
+    bottom: 6.5rem;
+}
+
+.carousel-caption h2{
+    font-size: 5rem;
+}
+
+.btn-style{
+    padding: 1rem 3rem;
+    font-size: 1.5rem;
+}
+
+
+#products {
+    margin-top: 2rem;
+    
+}
+
+.card-style {
+    border: none;
+    margin-top: 3rem;
+}
+
+.singleImage {
+    padding-top: 0;
+    padding-bottom: 2rem;
+    margin-top: 1rem;
+}
+
+.singleImage h2{
+    font-size: 3rem;
+    padding-top: 1rem;
+}
+
+footer{
+    background-color: #1d2547;
+}
+
+.columnContent ul{
+    list-style: none;
+    padding: 0;
+    margin-top: 1rem;
+}
+
+.columnContent ul li{
+    padding-bottom: 1.5rem;
+}
